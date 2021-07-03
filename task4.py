@@ -1,6 +1,6 @@
-def more_n(sp, n):
-    for i in sp:
-        if i>n:
-            print(i, end=' ')
+def more_n(sp, n): # объявление функции
+    for i in sp: # для каждого числа
+        if i>n: # если число больше n
+            print(i, end=' ') # то вывести число
 
 more_n((5, 4, 4, 9), 4)
